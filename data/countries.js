@@ -1234,8 +1234,5 @@ const countries = {
             part1: ["mouvements acrobatiques", "poses de trapéziste"],
             part2: ["danse aérienne", "jeux avec le cerceau"]
         }
-    }  // ← PAS DE VIRGULE ICI !
+    },
 };  // ← FERMETURE DE L'OBJET countries
-
-// Vérification du nombre de personnages
-console.log(`✅ countries.js chargé avec ${Object.keys(countries).length} personnages`);
